@@ -42,7 +42,7 @@ function handleCalcularButton() {
             
             
             <hr/>
-                Altura:
+              Qual a sua Altura:
                <input  
                 type='number'
                 placeholder='Digite a sua altura. Ex: 1.5 (em métros)'
@@ -50,7 +50,7 @@ function handleCalcularButton() {
                 onChange={(e)=> setHightField(parseFloat(e.target.value))}
                 disabled={toShow ? true : false}
                />
-               Peso:
+               Qual o seu Peso:
                <input  
                 type='number'
                 placeholder='Digite o seu peso. Ex: 90.5 (em kg)'
